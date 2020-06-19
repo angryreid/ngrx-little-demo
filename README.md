@@ -1,5 +1,23 @@
 # PetsTag
 
+## 原有项目
+
+[手把手教你用ngrx管理Angular状态](https://github.com/fezaoduke/TranslationInstitute/blob/master/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E7%94%A8ngrx%E7%AE%A1%E7%90%86Angular%E7%8A%B6%E6%80%81.md)
+
+### 变动
+
+1. 没有路由守卫，**正常运行**。
+2. 增加了`StoreDevtoolsModule`模块，可以使用`redux dev tool`调试状态。
+
+### 注意
+
+ng 版本为4
+
+``` JS
+"@ngrx/core": "^1.2.0",
+"@ngrx/store": "^2.2.1",
+```
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.0.
 
 ## Development server
